@@ -1,6 +1,8 @@
+import math
+
 def fillPrimesInRange(m):
 	primes = [1 for i in range(m+1)]
-	sqrtm = int(m**(0.5))
+	sqrtm = int(math.ceil(m**(0.5)))
 	primes[0] = primes[1] = 0
 	for i in range(2,sqrtm):
 		if primes[i] == 0:
