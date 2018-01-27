@@ -1,0 +1,1 @@
+print(((int(raw_input()) / 10)+1)*10)

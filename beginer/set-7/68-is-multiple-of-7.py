@@ -1,0 +1,1 @@
+print("Yes" if int(raw_input()) % 7 == 0 else "No")
