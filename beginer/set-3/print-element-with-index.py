@@ -1,5 +1,5 @@
 n = int(raw_input())
-values = [int(x) for x in raw_input().split(" ")]
+values = [x for x in raw_input().split(" ")]
 
 for i, val in enumerate(values):
-	print(str(val) + " " + str(i))
+	print(val + " " + str(i))
