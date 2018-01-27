@@ -1,0 +1,1 @@
+print("Yes" if int(raw_input()) in range(1, 11) else "No")
