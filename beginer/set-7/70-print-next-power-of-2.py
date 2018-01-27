@@ -1,6 +1,10 @@
 def nextPowerOf2(n):
 	count = 0
-	if (n and not (n & (n-1))):
+
+	if n == 0:
+		return 1
+
+	if not (n & (n-1)):
 		return n << 1
 
 	while n != 0:
